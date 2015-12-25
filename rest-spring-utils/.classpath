@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.3.RELEASE/e27b48d7dab85e42e81b648c94bb2c3255852c0/spring-context-4.2.3.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.3.RELEASE/fb26a160d984eb9cbf01fbf38f4b17e15fdd50e1/spring-context-4.2.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/junit/junit/4.8.2/cccca612a66b8387c399be31d69daf000de2ac9e/junit-4.8.2-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/junit/junit/4.8.2/c94f54227b08100974c36170dcb53329435fe5ad/junit-4.8.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.3.RELEASE/ebe83d6609718d2f8ef8e164e7874207adda64d/spring-aop-4.2.3.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.3.RELEASE/6384a57a024df03bfcb1eeccd3d820da98125b92/spring-aop-4.2.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.3.RELEASE/a5a54ce1e6b8ce06244bc318569939bd77f504d7/spring-beans-4.2.3.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.3.RELEASE/249921ead97248410ac04f854075f0a1c1a567e4/spring-beans-4.2.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.3.RELEASE/20ed33f924eb214e5600da3b93cb46289891dc01/spring-core-4.2.3.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.3.RELEASE/3ed00dad7a16b2a28df9348294f6a67151f43cf6/spring-core-4.2.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.3.RELEASE/cc7ab2bf537916b2cb7180c0109a95a653018f5b/spring-expression-4.2.3.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.3.RELEASE/67b064c726c276436387c7a183a49deda153a6cc/spring-expression-4.2.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+</classpath>

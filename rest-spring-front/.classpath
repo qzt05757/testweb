@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container" exported="true"/>
+	<classpathentry kind="src" path="/rest-spring-ap" exported="true"/>
+	<classpathentry kind="src" path="/rest-spring-apcore" exported="true"/>
+	<classpathentry kind="src" path="/rest-spring-utils" exported="true"/>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.3.RELEASE/e27b48d7dab85e42e81b648c94bb2c3255852c0/spring-context-4.2.3.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.3.RELEASE/fb26a160d984eb9cbf01fbf38f4b17e15fdd50e1/spring-context-4.2.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.3.RELEASE/d2ccd08b31ae2582fc499d0e92178e9a133ae27d/spring-webmvc-4.2.3.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.3.RELEASE/46803840259c6d51c531e4f07f4213d758c6ee1d/spring-webmvc-4.2.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.6.3/e50e2cdcbbfd50346a192b18df3a05cbb0119176/jackson-databind-2.6.3-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.6.3/5c4fcae53dd82e2c549b8322d78c6ff47c94c8a8/jackson-databind-2.6.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/junit/junit/4.8.2/cccca612a66b8387c399be31d69daf000de2ac9e/junit-4.8.2-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/junit/junit/4.8.2/c94f54227b08100974c36170dcb53329435fe5ad/junit-4.8.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.3.RELEASE/ebe83d6609718d2f8ef8e164e7874207adda64d/spring-aop-4.2.3.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.3.RELEASE/6384a57a024df03bfcb1eeccd3d820da98125b92/spring-aop-4.2.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.3.RELEASE/a5a54ce1e6b8ce06244bc318569939bd77f504d7/spring-beans-4.2.3.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.3.RELEASE/249921ead97248410ac04f854075f0a1c1a567e4/spring-beans-4.2.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.3.RELEASE/20ed33f924eb214e5600da3b93cb46289891dc01/spring-core-4.2.3.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.3.RELEASE/3ed00dad7a16b2a28df9348294f6a67151f43cf6/spring-core-4.2.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.3.RELEASE/cc7ab2bf537916b2cb7180c0109a95a653018f5b/spring-expression-4.2.3.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.3.RELEASE/67b064c726c276436387c7a183a49deda153a6cc/spring-expression-4.2.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.6.3/e92ea2d514bf1133e8c5b6ec9dfd548f7534ca62/jackson-annotations-2.6.3-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.6.3/435efa54afd2853995546802280e8cd2d2770d00/jackson-annotations-2.6.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.3.RELEASE/1604486372a34b5dec0d21bfa5c94e855413f71c/spring-web-4.2.3.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.3.RELEASE/98eea3fbe01450fff18aeb7e6003f80a879a049e/spring-web-4.2.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.3/725bd4a1edfbf519b03ea21967f7fc5270140d3e/jackson-core-2.6.3-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.3/142ce64dcd709a4b5f6e7d71305a31d3893d077/jackson-core-2.6.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+</classpath>

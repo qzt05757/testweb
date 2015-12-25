@@ -1,0 +1,1 @@
+includeFlat 'rest-spring-ap', 'rest-spring-apcore', 'rest-spring-utils'

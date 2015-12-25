@@ -1,0 +1,86 @@
+apply plugin: 'war'
+
+def springVersion = '4.2.3.RELEASE'
+
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'eclipse-wtp' // wtp にしないと親からの参照設定がうまくいかない模様
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        compile "org.springframework:spring-context:${springVersion}"
+        testCompile 'junit:junit:4.8.2'
+    }
+
+    eclipse {
+        pathVariables 'GRADLE_USER_HOME': gradle.gradleUserHomeDir
+    }
+
+    eclipseJdt << {
+        File f = file('.settings/org.eclipse.core.resources.prefs')
+        f.write('eclipse.preferences.version=1\n')
+        f.append('encoding/<project>=UTF-8')
+        ['src/main/java', 'src/main/resources', 'src/test/java', 'src/test/resources'].each {
+            def path ="${projectDir}/${it}"
+            ant.mkdir(dir: path)
+            ant.touch(file: "${path}/.gitkeep")
+        }
+    }
+}
+
+eclipseWtp << {
+    ['src/main/webapp'].each {
+        def path ="${projectDir}/${it}"
+        ant.mkdir(dir: path)
+        ant.touch(file: "${path}/.gitkeep")
+    }
+}
+
+configure(subprojects.findAll { it.name.endsWith('-ap') }) {
+    dependencies {
+        compile 'org.springframework.data:spring-data-mongodb:1.8.1.RELEASE'
+        compile 'com.fasterxml.jackson.core:jackson-databind:2.6.3'
+        compile 'com.fasterxml.jackson.core:jackson-annotations:2.6.3'
+    }
+}
+
+configure(subprojects.findAll { !it.name.endsWith('-utils') }) {
+    dependencies {
+        (rootProject.subprojects.findAll { it.name.endsWith('-utils') }).each { p ->
+            compile p
+        }
+    }
+}
+
+configure(subprojects.findAll { it.name.endsWith('-apcore') }) {
+    dependencies {
+        compile 'org.springframework.data:spring-data-mongodb:1.8.1.RELEASE'
+        compile 'com.fasterxml.jackson.core:jackson-databind:2.6.3'
+        compile 'com.fasterxml.jackson.core:jackson-annotations:2.6.3'
+    }
+}
+
+dependencies {
+
+    // サブプロジェクトへの依存関係追加
+    subprojects.each {
+        compile it
+    }
+
+    providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+
+    compile "org.springframework:spring-webmvc:${springVersion}"
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.6.3'
+}
+
+
+task wrapper(type: Wrapper) {
+    gradleVersion = 1.4
+}
+
